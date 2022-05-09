@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.dropdown{
+    margin: 100 auto;
+    position: relative;
+    display: block;
+    border: solid;
+}
+.dropdown .dropdown-content{
+position: absolute;
+right: 50%;
+width: 100px;
+}
+.dropdown .dropdown-item:last-child{
+    margin-top: 15px;
+}
